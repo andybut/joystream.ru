@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Joystream</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
+                <a class="header__logo">
+                    <img src="./img/icon/logo.svg" alt="Логотип Joystream">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#about">О проекте</a></li>
+                        <li><a href="#purpose">Цель проекта</a></li>
+                        <li><a href="#atlas">Atlas</a></li>
+                        <li><a href="#earnings">Founding Member</a></li>
+                        <li><a href="#participation">Отчёт</a></li>
+                        <li><a href="#fond">Стань участником</a></li>
+                        <li><a href="#work">Активности</a></li>
+                        <li><a href="#community">Сообщество</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__left">
+                        <div class="about__image">
+                            <img src="./img/fouding.png" alt="Модные Греки">
+                        </div>
+                    </div>
+                    <!-- left -->
+                    <div class="about__right">
+                        <div class="about__inner">
+                            <div class="about__text">
+                                <p>Joystream - это видео децентрализованная платформа открытым исходным кодом, которая контролируется, принадлежит и управляется ее пользователями. Пользователи могут загружать, просматривать, оценивать, комментировать, добавлять
+                                    в избранное и делиться теми или иными видеозаписями.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right -->
+                </div>
+            </div>
+        </section>
+        <section id="purpose" class="purpose">
+            <div class="container">
+                <h2 class="purpose__title">
+                    Цель проекта
+                </h2>
+                <div class="purpose__wrapper">
+                    <div class="purpose__top">
+                        <p>Сегодня многие площадки для размещения контента не достаточно честны как с пользователями, так и с другими структурами. Существует множество фактов сговора стримерских площадок, дележка рынка, юрисдикционный арбитраж и сплошная
+                            экономия на всем. Одновременно рыночная конкуренция, неспособность властей регулировать область и большая авторитарная власть таких компаний не позволяют на них влиять. Эти социальные сдерживающие факторы ведут к снижению:</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="purpose__center">
+                        <div class="purpose-table">
+                            <div class="purpose-table__image">
+                                <img src="./img/icon/Node.svg" alt="Иновации">
+                            </div>
+                            <p>инноваций</p>
+                        </div>
+                        <div class="purpose-table">
+                            <div class="purpose-table__image">
+                                <img src="./img/icon/Incentive.svg" alt="Вознаграждение">
+                            </div>
+                            <p>вознаграждения людям которые делают контент</p>
+                        </div>
+                        <div class="purpose-table">
+                            <div class="purpose-table__image">
+                                <img src="./img/icon/Governance.svg" alt="Монополисты">
+                            </div>
+                            <p>снижение влияния крупнейшего участника платформы — пользователя, влиять на политику платформы.</p>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="purpose__bottom">
+                        <p>Joystream стоит рассматривать как аналог Vimeo, Rutube, или YouTube разработанный и поддерживаемый сообществом. Токеномика проекта</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="atlas" class="atlas">
+            <div class="container">
+                <div class="atlas__inner">
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/avto.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/animal.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/sport.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/moda.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/travel.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/game.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/cook.mp4" type="video/mp4" />
+                    </video>
+                    <video class="atlas__video" loop="loop" autoplay="" muted="">
+                        <source src="./video/texno.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <h2>atlas</h2>
+                <div class="atlas__wrapper">
+                    <div class="atlas__left">
+                        <a href="https://play.joystream.org/" class="atlas__image">
+                            <img src="./img/atlas.png" alt=" Платформа Атлас">
+                        </a>
+                    </div>
+                    <!-- left -->
+                    <div class="atlas__right">
+                        <div class="atlas__text">
+                            <span>Atlas</span>
+                            <p>Atlas - это ведущее приложение для потребителей и публикации контента Joystream. Смотрите видео, подписывайтесь на авторов и открывайте для себя новый избранный контент или создавайте канал и расширяйте свою аудиторию.</p>
+                            <a class="atlas-link" href="https://play.joystream.org/">
+                                <p>Попробуйте Atlas</p>
+                                <div class="atlas-link__image">
+                                    <img src="./img/icon/arrow.svg" alt="Стрелка">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="atlas__wrapper">
+                    <div class="atlas__left">
+                        <div class="atlas__text">
+                            <span>Pioneer</span>
+                            <p>Pioneer - это место, где можно участвовать в управлении и работе сообщества. Голосуйте на выборах, подавайте предложения по финансированию вашего проекта или получите оплачиваемую роль для управления платформой.</p>
+                            <a class="atlas-link" href="https://testnet.joystream.org/">
+                                <p>Попробуйте Pioneer</p>
+                                <div class="atlas-link__image">
+                                    <img src="./img/icon/arrow.svg" alt="Стрелка">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- left -->
+                    <div class="atlas__right">
+                        <a href="https://testnet.joystream.org/" class="atlas__image">
+                            <img src="./img/pioneer.png" alt="Пионер">
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section id="earnings" class="earnings">
+            <div class="container">
+                <div class="earnings__title">
+                    Joystream Founding Member Program
+                </div>
+                <div class="earnings__wrapper">
+                    <div class="earnings__left">
+                        <div class="earnings__text">
+                            <span>Что такое программа Founding Member </span>
+                            <p>Команда выделила для программы 15% от выпуска токенов mainnet genesis, при этом гибкость для этого может быть значительно увеличена, если схема будет успешной в мотивации участия сообщества. В рамках развертывания программы
+                                команда представляет новую систему лидеров для отслеживания вклада сообщества. Чтобы появиться в этой таблице лидеров, вы должны быть зарегистрированы в качестве члена-учредителя или отправили хотя бы одну сводку активности
+                                сообщества.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="earnings__right">
+                        <div class="earnings__image">
+                            <img src="./img/hero.png" alt="Joy Hero">
+                        </div>
+                    </div>
+                    <!-- 1 -->
+                </div>
+            </div>
+        </section>
+        <section id="participation" class="participation">
+            <div class="container">
+                <h2 class="participation__title">Как подается и оценивается отчет</h2>
+                <div class="participation__wrapper">
+                    <div class="participation-table">
+                        <span>1</span>
+                        <p>Сводку активности сообщества можно понимать как регулярный отчет обо всех вкладах вашего сообщества за определенный период. В нем вы объясняете рецензентам Jsgenesis, как вы внесли свой вклад в успех проекта своей деятельностью
+                            в сообществе.</p>
+                    </div>
+                    <div class="participation-table">
+                        <span>2</span>
+                        <p>После получения отчета о деятельности команда обрабатывает содержащуюся в нем информацию, чтобы определить количество баллов для каждого вашего вклада за отчетный период. Как только эта сводная обработка будет завершена, ваш текущий
+                            счет очков и соответствующая позиция будут обновлены в списках лидеров.</p>
+                    </div>
+                    <div class="participation-table">
+                        <span>3</span>
+                        <p>Те, кто постоянно вносит качественный вклад и сообщает о них, представляя краткие сведения о деятельности, будут приглашены и официально введены в программу.</p>
+
+                    </div>
+                    <div class="participation-table">
+                        <span>4</span>
+                        <p>После официального завершения программы (примерно за месяц до выпуска основной сети) баллы, выделенные членам-учредителям, будут переданы по формуле *, которая определит, какой процент от выпуска токенов получает каждый отдельный
+                            участник на основе их относительных баллов. На данный момент предварительная формула (подлежащая пересмотру) просто распределяет «гарантированные» 0,02% от общего выпуска токенов каждому члену-основателю при присоединении к
+                            программе, а остальные 15% пула делятся пропорционально на основе таблицы лидеров каждого участника. счет.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fond" class="fond">
+            <div class="container">
+                <h2>Кто может стать участником?</h2>
+                <div class="fond__wrapper">
+                    <div class="fond__left">
+                        <div class="fond__text">
+                            <p>Любой, кто соответствует критериям отбора (старше 18 лет и лица, не являющиеся гражданами США), сможет стать членом-учредителем, хотя для этого участники должны демонстрировать регулярный и эффективный вклад в платформу.</p>
+                            <p>Команда опубликовала в репозитории нового члена-учредителя на GitHub список потенциальных действий, которые могут претендовать на получение очков в таблице лидеров, и сколько может потребоваться каждый вклад.</p>
+                        </div>
+                    </div>
+                    <!-- left -->
+                    <div class="fond__right">
+                        <div class="fond__image">
+                            <img src="./img/alexandria.png" alt="Александрия">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="work__title">
+                    Что я могу делать?
+                </h2>
+                <div class="work__wrapper">
+                    <div class="work__left">
+                        <div class="work__image">
+                            <img src="./img/bg/star.png" alt="Звезда">
+                        </div>
+                    </div>
+                    <div class="work__right">
+                        <div class="work__text">
+                            <strong>Некоторые основные примеры вкладов могут включать:</strong>
+                            <ul>
+                                <li>Запуск узла валидатора</li>
+                                <li>Участие в ролях платформы (поставщик хранилища, куратор контента и т. Д.)</li>
+                                <li>Оказание поддержки другим участникам сообщества в Telegram, форуме платформы, GitHub и других местах.</li>
+                                <li>Написание сообщений в блогах и документации</li>
+                                <li>Размещение на форуме платформы</li>
+                                <li>Разработка виджетов и инструментов</li>
+                                <li>Загрузка ваших оригинальных видео в тестовую сеть</li>
+                                <li>Сообщение об ошибках и проблемах безопасности</li>
+                                <li>Завершение официальных наград</li>
+                            </ul>
+                            <p>Участники, которые накапливают большое количество очков в таблице лидеров, регулярно предлагая качественные взносы, будут вводиться в должность на регулярной основе (каждый «период оценки») после того, как Jsgenesis свяжется
+                                с ними и проверит их. Каждый член-основатель также сможет выбрать уникальный нарисованный от руки аватар для использования в профилях участников.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="community" class="community">
+            <h2>У нас самое крутое сообщество</h2>
+            <div class="container">
+                <div class="community__wrapper">
+                    <div class="community__inner">
+                        <div class="community__text">
+                            <p>Наше сообщество с радостью ответит на любой вопрос касательно проекта и не только. Добавляйтесь в наши социальные сети:</p>
+                        </div>
+                    </div>
+                    <div class="community__socials">
+                        <a href="https://t.me/JoystreamRussian" class="community__link">
+                            <p>RU TELEGARM</p>
+                            <div class="community__image">
+                                <img src="./img/icon/arrow.svg" alt="Стрелка">
+                            </div>
+                        </a>
+                        <a href="https://t.me/JoyStreamOfficial" class="community__link">
+                            <p>EN TELEGARM</p>
+                            <div class="community__image">
+                                <img src="./img/icon/arrow.svg" alt="Стрелка">
+                            </div>
+                        </a>
+                        <a href="https://discord.gg/DE9UN3YpRP" class="community__link">
+                            <p>Discord</p>
+                            <div class="community__image">
+                                <img src="./img/icon/arrow.svg" alt="Стрелка">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/JoystreamApp" class="community__link">
+                            <p>Twitter</p>
+                            <div class="community__image">
+                                <img src="./img/icon/arrow.svg" alt="Стрелка">
+                            </div>
+                        </a>
+                        <a href="https://github.com/Joystream" class="community__link">
+                            <p>Github</p>
+                            <div class="community__image">
+                                <img src="./img/icon/arrow.svg" alt="Стрелка">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="community__inner">
+                        <div class="community__text">
+                            <p>Также ты найдешь в нашем discord море информации по проекту.</p>
+                            <ul>
+                                <li>Видео</li>
+                                <li>Мемы</li>
+                                <li>Новости по проекту</li>
+                                <li>Баунти и Челенджи</li>
+                                <li>Новые разработки</li>
+                            </ul>
+                            <p>И многое другое ,а также приятное общение с сообществом Joystream</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__left">
+                        <a href="" class="footer__logo">
+                            <img src="./img/icon/Logoblack.svg" alt="Лого">
+                        </a>
+                    </div>
+                    <div class="footer__right">
+                        <ul>
+                            <li><a href="https://www.joystream.org/">Официальный сайт</a></li>
+                            <li><a href="https://play.joystream.org/">atlas</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="https://www.joystream.org/token">О токенах</a></li>
+                            <li><a href="https://blog.joystream.org/">Официальный блог joystream</a></li>
+                            <li><a href="https://yandex.ru/video/preview/?text=%D0%BA%D0%B0%D0%BA%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%BC%D0%B1%D0%B5%D1%80%D0%BE%D0%BC%20%D0%B2%20joystream&path=wizard&parent-reqid=1624625451219718-4717244874690084292-balancer-knoss-search-yp-sas-12-BAL-6697&wiz_type=vital&filmId=11625373483539846170">Гайд для начинающего</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/jquery-3.5.0.min.js"></script>
+        <script src="./js/main.js"></script>
+    </main>
+</body>
+
+</html>
